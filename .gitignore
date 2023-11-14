@@ -1,0 +1,12 @@
+# Ignore files built by Visual Studio
+bin/
+obj/
+
+# Ignore build output
+*.dll
+*.exe
+
+# Ignore user-specific files
+*.user
+*.suo
+*.sln.docstates
