@@ -23,6 +23,17 @@ namespace MyExtensionMethods
 }
 ```
 
+Here, we've created an extension method FirstHalf for the string class. This method divides the input string into two halves and returns the first half.
+
+You can then use this method in your code like this:
+
+```csharp
+string myString = "Hello, World!";
+string firstHalf = myString.FirstHalf(); // Using the extension method here
+Console.WriteLine(firstHalf); // Output: Hello
+
+```
+
 Ensure to import the namespace where the extension method resides (using MyExtensionMethods;) to utilize the extension method in your code.
 
 ## Important Note
